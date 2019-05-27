@@ -10,3 +10,16 @@ the firmware-cnc.bin is a build for CNC. It has a different layout for the optio
 
 The regular firmware.bin builds are for 3D printers and exclude CNC moudules such as spindle and drilling cycles. It has 5-axis built in so you can use two extuders out of the box.
 
+**Arhi FORK notes**
+
+ firmware-cnc-*  these are builds from Smoothieware/Smoothieware, not related to this fork
+
+ firmware.bin  this is built with NONETWORK=1 (as normally you would use this fork with TT motherboard and there's no network there)
+
+ firmware-latest.bin  this is same as firmware.bin
+
+ firmware-disablemsd.bin this is built with NONETWORK=1 DISABLEMSD=1 
+
+ for any other type of build please build yourself
+
+ 
